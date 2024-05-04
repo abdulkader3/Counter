@@ -1,0 +1,81 @@
+/* =====common css start===== */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1 h2 h3 h4 h5 h6 p ul ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* =====common css end===== */
+/* =start Basic CSS to create something middle of the body adjust accordingly===   */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    min-height: 100vh;
+}
+
+/* =end Basic CSS to create something middle of the body adjust accordingly===   */
+
+
+
+
+
+/* ==========main project C S S start============= */
+.main {
+    display: flex;
+    gap: 200px;
+    font-size: 100px;
+    position: relative;
+}
+
+.main .bt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    font-size: 100px;
+    border-radius: 15px;
+    transition: all linear .2s;
+
+}
+
+.num {
+    color: #fff;
+    position: absolute;
+    left: 251px;
+    top: -19px;
+}
+
+
+
+.main .bt:hover {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.main .bt:hover:active {
+    transform: scale(1.1);
+}
+
+
+
+/* ==========main project C S S end============= */
